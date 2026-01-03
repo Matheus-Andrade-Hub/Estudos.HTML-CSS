@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(to bottom, #ffde5c 30%, #f32a2a 60%, #571aff, #0A486D);
+}
+
+
+
+main {
+    background-color: #ffffff;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #2e296aae;
+}
+
+#amarelo {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#vermelho {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#azul {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+

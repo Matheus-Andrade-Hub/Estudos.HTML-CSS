@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to bottom, #CAFF02, #FFE005, #01F148, #ff41ff );
+}
+
+
+
+main {
+    background-color: #ffffff;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #2e296aae;
+}
+
+#laranja {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#verde {
+    background-color: rgb(0, 255, 0);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#violeta {
+    background-color: rgb(255, 0, 255);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
