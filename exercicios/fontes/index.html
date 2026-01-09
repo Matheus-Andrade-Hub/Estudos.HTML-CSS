@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes e imports</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+        h1 {
+            font: italic bolder 2em "Sriracha",  arial, sans-serif
+        }
+
+        h2 {
+            font: italic bolder 20px "Plaster", arial serif
+        }
+
+        p {
+            text-align: left;
+            text-align: justify;
+            text-indent: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Importando fontes.</h1>
+    <h2>Fontes importadas:</h2>
+    <p>Para importar esta fonte eu fui no google fontes, escolhi uma fonte que fosse do meu gosto e importei ela, depois disso eu adicionei ela usando o seletor (font) no css.</p>
+    <p><strong>Desta maneira:</strong></p>
+    <p>
+        <code>
+            h1 {
+                font: italic bolder 2em "Sriracha", "arial", "italic", sans-serif
+            } <br> <br>
+            h2 {
+                font: italic bolder 27px "Gesso", arial,  serif
+            }
+        </code>
+    </p>
+    <p> <strong>font:</strong> o seletor font e um jeito mais simples de organizar as fontes, voce organiza na seguinte ordem, font-style -> font-weight -> font-size -> font-family.</p>
+    <h1>Textos.</h1>
+    <h2>Textos alinhados:</h2>
+    <p> para alinhas os textos eu usei o seletor text-align e text-ident.</p>
+    <p><strong>Desta maneira:</strong></p>
+    <p>
+        <code>
+            p {
+                text-align: left;
+                text-align: justify;
+                text-indent: 15px;
+            }
+        </code>
+    </p>
+    <p> <strong>text-align:</strong> serve para alinhar o texto. <br> <strong>text-indent:</strong> serve para dar margem no inicio do paragrafo.</p>
+</body>
+</html>
