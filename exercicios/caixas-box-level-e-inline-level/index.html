@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas box-level e inline-level</title>
+    <style>
+        h1 {
+            background-color: #aba8a8;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            border: 10px solid orange;
+            outline: 10px dashed purple;
+            padding: 10px;
+            margin-left: 10px;
+            display: block;
+        }
+
+        h1#box2 {
+            text-align: center;
+            border: 10px solid orange;
+            outline: 10px dashed purple;
+            padding: 10px;
+            margin-left: 10px;
+            display: inline;
+        }
+
+        p {
+            text-align: justify;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Caixa box-level.</h1>
+    <p>Caixas do tipo box-level ocupam toda a largura do paragrafo se essa largura nao for definida, alem de que se voce colocar outro elemento ou conteudo, ele sera quebrado para a linha de baixo, voce pode alterar uma caixa para inline-level utilizando (display: inline;) com css e tambem alterar para box-level utilizando (display: block;). </p>
+    <h1 id="box2">Caixa inline-level</h1>
+    <p>As caixas do tipo inline-level nao ocupam toda a largura do paragrafo, ocupam apenas o espaço necessario, elas tambem nao quebram para linha de baixo, assim como as caixas box-level voce pode alterar uma caixa para box-level utilizando (display: block;) com css e tambem alterar para inline-level utilizando (display: inline;) </p>
+</body>
+</html>
